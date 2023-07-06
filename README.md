@@ -17,3 +17,25 @@ for (var i = 0; i<array2.length; i++)
 alert(array1);
 
 </script>
+
+
+2)const word = 'aaadddAAAwwwweee'
+
+let newWord = ' '
+
+for (let i = 0; i < word.length; i++)
+{
+
+  if (word[i] === word[i + 1])
+{
+
+    newWord += word[i] + word[i + 1]
+
+    i++
+
+  }
+
+}
+
+console.log(newWord, newWord.lenght)
+
